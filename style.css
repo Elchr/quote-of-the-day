@@ -1,0 +1,90 @@
+body {
+  background-color: #f3e8ff; /* Set body background color to white */
+  color: black; /* Default text color to black */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.card {
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  width: 600px; /* Card width */
+}
+
+/* First Section */
+.header-section {
+  background-color: #6B15B6; /* Purple background */
+  color: white; /* White text color */
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center; /* Center text inside section */
+}
+
+/* Second Section */
+.quote-section {
+  background-color: white; /* White background */
+  color: black; /* Black text color */
+  padding: 20px;
+  text-align: center; /* Center text inside section */
+}
+
+/* Third Section */
+.footer-section {
+  background-color: #f3e8ff; /* Light purple background */
+  color: #6B15B6; /* Dark purple text color */
+  padding: 10px;
+  text-align: center; /* Center text inside section */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.subtitle {
+  margin-top: 5px;
+}
+
+#quote {
+  font-size: 24px;
+  margin: 20px 0;
+  position: relative;
+  color: black; /* Set quote text color to black */
+}
+
+.quote-mark {
+  font-size: 48px;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+  padding-right: 20px;
+  color:#6B15B6;
+}
+
+.author {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #6B15B6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px; /* Rounded edges for button */
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: #5a1299;
+}
+
+#date {
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8); /* Light text for date */
+}
